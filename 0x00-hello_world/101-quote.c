@@ -1,7 +1,5 @@
 #include <unistd.h>
-
 #include <stdlib.h>
-
 /**
  *main - Entry point
  *Description: 'Output that prints exactly followed by a new line, to the standard error.'
