@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *  *main - Entry point
- *   *Description:'Output the size of dataTypes'
- *    *Return: Always 0 (Success)
- *     */
+ *main - Entry point
+ *Description:'Output the size of dataTypes'
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 int integer_type;
