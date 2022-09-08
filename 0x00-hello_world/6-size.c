@@ -1,13 +1,22 @@
 #include <stdio.h>
+#include <string.h>
 /**
- *main - Entry point
- *Description: 'Output of sizes'
- *Return: Always 0 (Success)
- */
+ *  *main - Entry point
+ *   *Description:'Output the size of dataTypes'
+ *    *Return: Always 0 (Success)
+ *     */
 int main(void)
 {
-printf("Size of a char: %zu byte(s)\n", sizeof(char));
-printf("Size of an int: %zu byte(s)\n", sizeof(int));
-printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
-printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));								printf("Size of a float: %zu byte(s)\n", sizeof(float));										return (0);
+int integer_type;
+double double_type;
+float float_type;
+char char_type;
+long long_type;
+long long long_long_type;
+printf("Size of a char: %ld byte(s)\n", sizeof(char_type));
+printf("Size of an int: %ld byte(s)\n", sizeof(integer_type));
+printf("Size of a long int: %ld byte(s)\n", sizeof(long_type));
+printf("Size of a long long int: %ld byte(s)\n", sizeof(long_long_type));
+printf("Size of a float: %ld byte(s)\n", sizeof(float_type));
+return (0);
 }
