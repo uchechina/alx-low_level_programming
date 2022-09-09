@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+*main - Entry point
+*Description:'output whether an integer is less than or greater than zero'
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
