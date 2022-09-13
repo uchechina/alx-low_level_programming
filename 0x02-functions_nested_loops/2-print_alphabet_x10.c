@@ -2,7 +2,7 @@
 /**
  *print_alphabet_x10 - does my stuff
  *Description: Does my stuff explained.
- * */
+ */
 void print_alphabet_x10(void)
 {
 int n = 0;
