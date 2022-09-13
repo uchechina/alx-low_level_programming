@@ -5,7 +5,7 @@
 *Description: A program that prints "_putchar" then a new line
 *Return: Always 0 (Success)
 */
-int main(void)
+void main(void)
 {
 _putchar('_');
 _putchar('p');
