@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- * _isupper - checks if the letters are uppercase
- *  @c: input.
- *  Return: 1 if c is uppercase
- * 0 otherwise.
+ * _isupper - takes a date and prints how many days are
+ * left in the year, taking leap years into account
+ * @c: alphabet
+ * Return: (0)
  */
 int _isupper(int c)
 {
-if ((c >= 'A') && (c <= 'Z'))
-{
+char ch;
+for (ch = 'A'; ch <= 'Z'; ch++)
+if (ch == c)
 return (1);
-}
-else
-{
 return (0);
-}
 }
