@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * main - largest prime factor of 612852475143
  * Description - prime numbers
